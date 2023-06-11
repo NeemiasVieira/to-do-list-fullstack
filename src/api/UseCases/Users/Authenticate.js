@@ -1,7 +1,8 @@
 import api from "../../api";
 
-export const Authenticate = async(username, password, setState) => { 
+export const Authenticate = async(username, password, setState, setIsloading) => { 
 
+  setIsloading(true);
   if(sessionStorage.getItem("token")){
     sessionStorage.removeItem("token")
   }
@@ -28,6 +29,7 @@ export const Authenticate = async(username, password, setState) => {
       }      
     })
     .catch((erro) => console.log(erro.response.data));
+    setIsloading(false);
 
     if(sessionStorage.getItem("token")) return [sessionStorage.getItem("token"), user];
     else return null;
