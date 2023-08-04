@@ -7,7 +7,7 @@ justify-content: center;
 flex-flow: column wrap;
 color: #fff;
 min-height: calc(100vh - 110px);
-background-color: rgb(19, 145, 177);
+background-image: linear-gradient(to bottom left, rgb(25, 145, 200), rgb(25, 165, 225));
 
 form{
   display: flex;
