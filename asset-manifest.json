@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/to-do-list-fullstack/static/css/main.cd1b2877.css",
-    "main.js": "/to-do-list-fullstack/static/js/main.6122d656.js",
+    "main.css": "/to-do-list-fullstack/static/css/main.8eb08d26.css",
+    "main.js": "/to-do-list-fullstack/static/js/main.aecfb234.js",
     "static/media/node-js.svg": "/to-do-list-fullstack/static/media/node-js.927fc395a2f60b02c2917643ad340f0c.svg",
     "static/media/express.svg": "/to-do-list-fullstack/static/media/express.ebe71e3af30909288001fd7bc6d0094a.svg",
     "static/media/react.svg": "/to-do-list-fullstack/static/media/react.22a05374f4eefdd120b71df3f98d68a1.svg",
     "static/media/mongodb.svg": "/to-do-list-fullstack/static/media/mongodb.d18b3c0417bd19d758ccab324a5a44a5.svg",
     "index.html": "/to-do-list-fullstack/index.html",
-    "main.cd1b2877.css.map": "/to-do-list-fullstack/static/css/main.cd1b2877.css.map",
-    "main.6122d656.js.map": "/to-do-list-fullstack/static/js/main.6122d656.js.map"
+    "main.8eb08d26.css.map": "/to-do-list-fullstack/static/css/main.8eb08d26.css.map",
+    "main.aecfb234.js.map": "/to-do-list-fullstack/static/js/main.aecfb234.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd1b2877.css",
-    "static/js/main.6122d656.js"
+    "static/css/main.8eb08d26.css",
+    "static/js/main.aecfb234.js"
   ]
 }
