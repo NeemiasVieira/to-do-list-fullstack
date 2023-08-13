@@ -1,6 +1,6 @@
 import { LoginStyle } from "./LoginStyle";
 import { Footer } from "../../Componentes/Footer/Footer";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Authenticate } from "../../api/UseCases/Users/Authenticate";
 import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -33,7 +33,7 @@ const Login = () => {
       <>
       <h1>Login</h1>
         <form action="submit">
-          <label>Usuário</label>
+          <label>Username</label>
           <div className="divInput">
           <FontAwesomeIcon icon={faUser} />
           <input
@@ -42,7 +42,7 @@ const Login = () => {
             onChange={(e) => setUsername(e.target.value)}
           />
           </div>
-          <label>Senha</label>
+          <label>Password</label>
           <div className="divInput">
             <FontAwesomeIcon icon={faLock} />
           <input
@@ -52,9 +52,9 @@ const Login = () => {
           />
           </div>
           <div className="cadastro">
-          <p>Não tem cadastro?</p> <Link to="/cadastro">Clique aqui</Link>
+          <p>Not signed up?</p> <Link to="/cadastro">Click Here</Link>
           </div>
-          <button id="loginButton" type="submit" onClick={(e) => logar(e)}>Entrar</button>
+          <button id="loginButton" type="submit" onClick={(e) => logar(e)}>Login</button>
         </form>
         </>
         )}        

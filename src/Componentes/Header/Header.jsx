@@ -4,9 +4,9 @@ import { HeaderStyle } from "./HeaderStyle"
 export const Header = (props) => {
   return(
     <HeaderStyle>
-    <h1>Lista de Tarefas</h1>
+    <h1>To Do List</h1>
     <div className="userActions">
-    <p>Usuario: {props.username}</p>
+    <p>{props.username}</p>
     <Link to="/">Logout</Link>
     </div>
     

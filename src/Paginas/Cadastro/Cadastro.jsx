@@ -29,14 +29,14 @@ const Login = () => {
   return (
     <>
       <CadastroStyle>
-        <h1>Cadastro</h1>
+        <h1>Signup</h1>
         <form action="submit">
-          <label>Nome</label>
+          <label>Name</label>
           <div className="divInput">
           <FontAwesomeIcon icon={faA} />
           <input
             type="text"
-            placeholder="Digite seu nome"
+            placeholder="Type your name"
             onChange={(e) => setName(e.target.value)}
           />
           </div>
@@ -45,7 +45,7 @@ const Login = () => {
           <FontAwesomeIcon icon={faUser} />
           <input
             type="text"
-            placeholder="Digite seu username"
+            placeholder="Type your username"
             onChange={(e) => setUsername(e.target.value)}
           />
           </div>
@@ -54,23 +54,23 @@ const Login = () => {
           <FontAwesomeIcon icon={faEnvelope} />
           <input
             type="text"
-            placeholder="Digite seu email"
+            placeholder="Type your e-mail"
             onChange={(e) => setEmail(e.target.value)}
           />
           </div>
-          <label>Senha</label>
+          <label>Password</label>
           <div className="divInput">
           <FontAwesomeIcon icon={faLock} />
           <input
             type="password"
-            placeholder="Digite sua senha"
+            placeholder="Type your password"
             onChange={(e) => setPassword(e.target.value)}
           />
           </div>
           <div className="login">
-          <p>Já tem cadastro?</p> <Link to="/login">Faça login</Link>
+          <p>Already signed up?</p> <Link to="/login">Login</Link>
           </div>
-          <button id="loginButton" type="submit" onClick={(e) => cadastrar(e)}>Criar cadastro</button>
+          <button id="loginButton" type="submit" onClick={(e) => cadastrar(e)}>SignUp</button>
         </form>
       </CadastroStyle>
       <Footer />

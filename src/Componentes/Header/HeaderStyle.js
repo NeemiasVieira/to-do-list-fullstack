@@ -8,6 +8,7 @@ export const HeaderStyle = styled.header`
   align-items: center;
   padding: 2px 0;
   overflow-x: hidden;
+  margin-bottom: 30px;
 
   h1{
     margin: 0;
@@ -33,6 +34,20 @@ export const HeaderStyle = styled.header`
     flex-flow: row nowrap;
     gap: 50px;
     color: #fff;
+  }
+
+  @media screen and (max-width: 480px) {
+    h1{
+      font-size: 1.5rem;
+    }
+
+    a{
+      font-size: .8rem;
+    }
+
+    .userActions{
+      gap: 30px;
+    }
   }
 
 `

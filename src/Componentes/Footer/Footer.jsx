@@ -6,7 +6,7 @@ export const Footer = () => {
   return(
     <FooterStyle>
       <a href="https://github.com/NeemiasVieira"><FontAwesomeIcon icon={faGithub} /></a>
-      <p>Todos os direitos reservados ℗ 2023 </p>
+      <p>All rights reserved ℗ 2023 </p>
     </FooterStyle>
   )
 }

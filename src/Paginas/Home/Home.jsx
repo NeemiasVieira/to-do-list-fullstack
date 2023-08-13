@@ -14,14 +14,14 @@ const Home = () => {
     <HomeStyle>
     <header>
       <div className="Titulo">
-      <h1>Lista de Tarefas</h1>
-      <h2>Esse é o meu primeiro projeto FullStack</h2>
+      <h1>To Do List</h1>
+      <h2>This is my first FullStack project</h2>
       </div>
       <Link to="/login" className="BotaoLogin">Login</Link>
     </header>
 
     <section className="introducao">
-      <p>Esse aplicativo foi construido usando diversas tecnologias</p>
+      <p>This application was built using several technologies</p>
       <div>
       <img src={react} alt="Icone react" className="svgIcons"/>      
       <img src={nodejs} alt="Icone nodejs" className="svgIcons"/>      
@@ -32,14 +32,14 @@ const Home = () => {
 
     <section className="Aplicacao">
       <FontAwesomeIcon icon={faListCheck}/>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+      <p>This project can be useful in your day to day life, but do not put sensitive data here, as it does not have a very strong security layer, but rest assured that your password will be saved and encrypted</p>
     </section>
 
     <section className="Cadastro">
-      <p>Para utilizar o app é necessário possuir um cadastro no banco de dados</p>
+      <p>To use the app, you must have a registration in our database.</p>
       <div>
-      <p>Não tem cadastro?</p>
-      <Link to="/cadastro">Faça já o seu cadastro</Link>
+      <p>Don't have an account?</p>
+      <Link to="/cadastro">Register now</Link>
       </div>
     </section>    
     </HomeStyle>
