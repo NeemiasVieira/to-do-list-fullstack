@@ -7,7 +7,7 @@ import "../index.css"
 
 const Router = () => {
   return(
-    <BrowserRouter>
+    <BrowserRouter basename="/to-do-list-fullstack">
     <Routes>
     <Route index element={<Home/>}/>
     <Route element={<Login/>} path="/login"/>
