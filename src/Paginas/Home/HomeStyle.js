@@ -102,4 +102,23 @@ export const HomeStyle = styled.main`
       }
     }
   }
+
+  @media screen and (max-width: 480px){
+
+    .Aplicacao{
+      width: 100vw;
+
+      p{
+        width: 60vw;
+      }
+    }
+
+    .Cadastro{
+      div{
+        margin-right: 25px;
+      }
+    }
+
+
+  }
 `;
