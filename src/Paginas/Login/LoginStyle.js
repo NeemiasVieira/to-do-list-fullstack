@@ -77,4 +77,14 @@ button{
   }
 }
 
+@media screen and (max-width: 480px){
+  .cadastro{
+    font-size: 16px;
+  }
+
+  input{
+    font-size: 16px;
+  }
+}
+
 `
