@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {  Routes, Route, HashRouter } from "react-router-dom";
 import Home from "../Paginas/Home/Home";
 import Login from "../Paginas/Login/Login";
 import Cadastro from "../Paginas/Cadastro/Cadastro";
@@ -7,7 +7,7 @@ import "../index.css"
 
 const Router = () => {
   return(
-    <BrowserRouter basename="/to-do-list-fullstack">
+    <HashRouter>
     <Routes>
     <Route index element={<Home/>}/>
     <Route element={<Login/>} path="/login"/>
@@ -16,7 +16,7 @@ const Router = () => {
     {/* Rotas Autenticas */}
     <Route element={<List/>} path="/lista"/>
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
