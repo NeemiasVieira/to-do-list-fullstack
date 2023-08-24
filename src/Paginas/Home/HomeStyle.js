@@ -33,10 +33,27 @@ export const HomeStyle = styled.main`
     font-weight: 600;
   }
 
+  p{
+    font-size: 1.1rem;
+  }
+
   .BotaoLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: #fff;
     margin-right: 60px;
+    transition: all 200ms;
+    font-weight: 700;
+    height: 60px;
+    width: 100px;
+
+
+    :hover{
+      background-color: rgb(19, 145, 197);
+      font-size: 1.1rem;
+    }
   }
 
   .Titulo {
@@ -59,8 +76,8 @@ export const HomeStyle = styled.main`
   }
 
   .svgIcons {
-    width: 75px;
-    height: 75px;
+    width: 90px;
+    height: 90px;
   }
 
   .Aplicacao {
@@ -87,21 +104,33 @@ export const HomeStyle = styled.main`
   
     div {
       display: flex;
-      flex-flow: row nowrap;
+      flex-flow: column wrap;
       justify-content: center;
       align-items: center;
       gap: 10px;
     }
 
     a {
-      text-decoration: underline;
-      color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      font-size: 1.3rem;
+      background-color: #111;
+      width: 225px;
+      height: 45px;
+      border-radius: 10px;
+      color: #FFF;
       font-weight: 500;
+      transition: all 200ms;
       :hover {
+        transform: scale(1.1);
         color: #1391b1;
+        font-weight: 700;
       }
     }
   }
+
 
   @media screen and (max-width: 480px){
 
@@ -117,6 +146,19 @@ export const HomeStyle = styled.main`
       div{
         margin-right: 25px;
       }
+    }
+
+    .svgIcons{
+      height: 60px;
+      width: 60px;
+    }
+
+    h2{
+      font-size: .9rem;
+    }
+
+    .BotaoLogin{
+      width: 60px;
     }
 
 

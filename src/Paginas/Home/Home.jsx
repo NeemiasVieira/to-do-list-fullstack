@@ -36,10 +36,10 @@ const Home = () => {
     </section>
 
     <section className="Cadastro">
-      <p>To use the app, you must have a registration in our database.</p>
+      <p><strong>To use the app, you must have a registration in our database.</strong></p>
       <div>
       <p>Don't have an account?</p>
-      <Link to="/cadastro">Register now</Link>
+      <Link to="/cadastro" className="botaoRegistrar">Register now</Link>
       </div>
     </section>    
     </HomeStyle>
