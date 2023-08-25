@@ -134,15 +134,21 @@ export const HomeStyle = styled.main`
 
   @media screen and (max-width: 480px){
 
+    .introducao{
+      margin-top: 20px;
+    }
+
     .Aplicacao{
-      width: 100vw;
+      width: 80vw;
 
       p{
-        width: 60vw;
+        width: 50vw;
+        font-size: 1rem;
       }
     }
 
     .Cadastro{
+      margin-top: 25px;
       div{
         margin-right: 25px;
       }
