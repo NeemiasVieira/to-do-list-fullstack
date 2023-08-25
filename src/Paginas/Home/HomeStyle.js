@@ -62,7 +62,7 @@ export const HomeStyle = styled.main`
   }
 
   .introducao {
-    margin-top: 50px;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +81,7 @@ export const HomeStyle = styled.main`
   }
 
   .Aplicacao {
-    margin-top: 50px;
+    margin-top: 25px;
     display: flex;
     width: 60vw;
     max-width: 700px;
@@ -100,7 +100,7 @@ export const HomeStyle = styled.main`
   }
 
   .Cadastro {
-    margin-top: 50px;
+    margin-top: 25px;
   
     div {
       display: flex;
@@ -111,6 +111,7 @@ export const HomeStyle = styled.main`
     }
 
     a {
+      margin-bottom: 20px;
       display: flex;
       justify-content: center;
       align-items: center;
