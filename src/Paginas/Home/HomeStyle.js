@@ -133,12 +133,19 @@ export const HomeStyle = styled.main`
 
 
   @media screen and (max-width: 480px){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+      max-width: 90vw;
+    }
 
     .introducao{
       margin-top: 20px;
     }
 
     .Aplicacao{
+      margin-top: 25px;
       width: 80vw;
 
       p{
@@ -149,6 +156,7 @@ export const HomeStyle = styled.main`
 
     .Cadastro{
       margin-top: 25px;
+      margin-bottom: 20px;
       div{
         margin-right: 25px;
       }
